@@ -1,2 +1,3 @@
 python-ctags
 django
+GitPython
