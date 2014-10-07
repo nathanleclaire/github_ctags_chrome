@@ -1,10 +1,8 @@
 from debian:wheezy
 
 run apt-get update && \
-    apt-get install -y ctags python python-pip python2.7-dev
-run apt-get install -y git-core 
+    apt-get install -y ctags python python-pip python2.7-dev git-core libpq-dev
 
-run echo foo
 run git clone https://github.com/nathanleclaire/incorrigible-dotfiles /incorrigible-dotfiles
 run cd /incorrigible-dotfiles && ./install_dotfiles.sh
 
