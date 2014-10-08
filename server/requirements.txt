@@ -2,3 +2,4 @@ python-ctags
 django
 GitPython
 psycopg2
+django-grappelli
